@@ -1,0 +1,52 @@
+{
+    "name": "longlog/web",
+    "description": "LongLog web application",
+    "keywords": [
+        "longlog",
+        "yii2",
+        "web"
+    ],
+    "homepage": "https://github.com/demisang/longlog",
+    "type": "project",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Ivan Orlov",
+            "email": "gnasimed@gmail.com",
+            "homepage": "https://orlov.io/",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/demisang/longlog/issues?state=open",
+        "wiki": "https://github.com/demisang/longlog/wiki",
+        "source": "https://github.com/demisang/longlog"
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.6",
+        "yiisoft/yii2-bootstrap": "~2.0.0",
+        "yiisoft/yii2-swiftmailer": "~2.0.0 || ~2.1.0",
+        "rmrevin/yii2-fontawesome": "~2.12",
+        "codemix/yii2-localeurls": "^1.5",
+        "2amigos/yii2-chartjs-widget": "~2.0",
+        "demi/recaptcha": "~1.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.0.0",
+        "yiisoft/yii2-gii": "~2.0.0",
+        "yiisoft/yii2-faker": "~2.0.0",
+        "codeception/base": "^2.2.3",
+        "codeception/verify": "~0.3.1"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
