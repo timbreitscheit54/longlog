@@ -173,10 +173,14 @@ class Project extends \yii\db\ActiveRecord
 
         if ($insert) {
             // Save created by user id
-            $this->ownerId = UserHelper::getCurrentId();
+            if (!$this->ownerId) {
+                $this->ownerId = UserHelper::getCurrentId();
+            }
 
             // Generate random unique project token
-            $this->generateToken();
+            if (!$this->token) {
+                $this->generateToken();
+            }
         }
 
         return true;
