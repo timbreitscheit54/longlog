@@ -149,4 +149,14 @@ class SiteController extends Controller
             'model' => $model,
         ]);
     }
+
+    /**
+     * Privacy Policy page
+     *
+     * @return string
+     */
+    public function actionPrivacyPolicy()
+    {
+        return $this->render('privacyPolicy');
+    }
 }

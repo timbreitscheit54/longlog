@@ -31,7 +31,8 @@
         "rmrevin/yii2-fontawesome": "~2.12",
         "codemix/yii2-localeurls": "^1.5",
         "2amigos/yii2-chartjs-widget": "~2.0",
-        "demi/recaptcha": "~1.0"
+        "demi/recaptcha": "~1.0",
+        "demi/safe-text": "~1.0"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
