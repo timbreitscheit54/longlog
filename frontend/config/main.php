@@ -53,6 +53,7 @@ return [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                '' => 'site/index',
                 'privacy-policy' => 'site/privacy-policy',
                 '<controller:[\w-]+>/<action:[\w-]+>/<id:\d+>' => '<controller>/<action>',
             ],

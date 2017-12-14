@@ -57,7 +57,7 @@ $faviconsDir = $baseUrl . '/images/favicon';
     ]);
     $menuItems = [
         ['label' => Yii::t('app', 'MENU_PROJECTS'), 'url' => Yii::$app->homeUrl],
-        ['label' => Yii::t('app', 'MENU_ABOUT'), 'url' => ['/site/about']],
+        ['label' => Yii::t('app', 'MENU_ABOUT'), 'url' => ['/site/index']],
     ];
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => Yii::t('app', 'MENU_SIGNUP'), 'url' => ['/site/signup']];

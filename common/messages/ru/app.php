@@ -69,7 +69,7 @@ return [
     'LOGIN_SUBMIT_BTN' => 'Вход',
     'LOGIN_TITLE' => 'Авторизация',
     'LOGIN_USERNAME' => 'E-mail',
-    'MENU_ABOUT' => 'О нас',
+    'MENU_ABOUT' => 'О сервисе',
     'MENU_DASHBOARD' => 'Личный кабинет',
     'MENU_LOGIN' => 'Вход',
     'MENU_LOGOUT_{name}' => 'Выйти ({name})',

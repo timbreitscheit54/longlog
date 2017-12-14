@@ -7,6 +7,12 @@ Installation
 ---
 Based on [Yii2 advanced template](https://github.com/yiisoft/yii2-app-advanced/blob/master/docs/guide/README.md)
 <br>
+Clone this repo (you can get future updates by `git pull`)
+```bash
+git clone https://github.com/demisang/longlog.git
+```
+
+Clone this project via composer (only manual updates)
 ```bash
 composer create-project --prefer-dist longlog/web longlog
 ```
@@ -60,6 +66,9 @@ php yii rbac/init
 
 # Extract message translations
 php yii message @console/config/translation.php
+
+# Create/Update demo user and demo-data
+php yii demo/fill
 ```
 
 crontab:
